@@ -87,6 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
               selectedIndex: selectedIndex,
               onDestinationSelected: (value) {
                 // print('selected: $value');
+                // Set State forces refresh
                 setState(() {
                   selectedIndex = value;
                 });
